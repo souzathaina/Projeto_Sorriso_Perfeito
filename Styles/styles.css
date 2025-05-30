@@ -201,7 +201,7 @@ nav ul li a:hover {
   max-width: 700px;
   box-shadow: 0 8px 16px rgba(0,0,0,0.1);
   font-style: italic;
-  background: rgba(240, 248, 255, 0.85); /* tom mais claro e suave */
+  background: rgba(240, 248, 255, 0.85);
   color: #333;
   font-size: 1.1rem;
   line-height: 1.8;

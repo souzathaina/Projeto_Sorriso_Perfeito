@@ -13,7 +13,7 @@ header {
 
 #logo h1 {
     font-size: 2.5em;
-    margin: 0;
+    margin-left: 0.8em;
     white-space: nowrap;
     flex: 1 1 0;
     max-width: 40%;
@@ -44,7 +44,7 @@ header {
 
 #logo nav ul {
     display: flex;
-    gap: 0.0625em;
+    gap: 1em;
     padding: 0;
     margin: 0;
 }
@@ -89,18 +89,24 @@ header {
     font-weight: bold;
     display: flex;
     justify-content: center;
+    margin-bottom: 1em;
 }
 
 #servicos ul {
     font-size: 1.4em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 0.05em;
-    padding-top: 0.09375em;
-    padding-bottom: 0.125em;
+    max-width: 600px; /* largura máxima para a lista, ajuste conforme quiser */
+    margin: 0 auto; /* centraliza o bloco da lista */
+    padding: 0;
+    list-style: none; /* opcional, se quiser remover as bolinhas */
+    text-align: left; /* alinha o texto à esquerda */
 }
+
+#servicos ul li {
+    margin-bottom: 0.5em; /* espaçamento entre itens */
+}
+
+
+
 
 .servico-titulo {
     font-weight: bold;

@@ -1,48 +1,68 @@
-#logo {
-    padding-top: 6em;
-    padding-right: 2em;
-    padding-left: 2em;
-    padding-bottom: 4em;
-    margin-top: 3em;
-    margin-bottom: 5em;
-    display: flex;
-    justify-content: space-between;
-    background-image: url(../interatividade/Assets/img/logo.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+header {
+    background-color: rgb(17, 226, 226);
+    margin-bottom: 8em;
+}
 
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.125em;
+    gap: 0.09375em;
 }
 
 #logo h1 {
-    display: flex;
-    align-items: center;
-    font-size: 4em;
+    font-size: 2.5em;
+    margin: 0;
+    white-space: nowrap;
+    flex: 1 1 0;
+    max-width: 40%;
 }
 
-#logo ul {
-    font-weight: bold;
-    font-size: 1.4em;
-    display: flex;
-    flex-direction: row;
-    gap: 0.7em;
-    padding-top: 1.5em;
-    padding-bottom: 2em;
+#logo img {
+    max-height: 9.375em;
+    height: auto;
+    width: auto;
+    margin: 0 0.125em;
+    flex-shrink: 0;
+    order: 2;
 }
 
-#logo li a {
-    text-decoration: none;
-    color: greenyellow;
 
-}
-
-#logo li a:hover {
+#logo img:hover {
     transition: 1s;
-    text-decoration: underline;
-    color: rgb(56, 63, 46);
-    font-size: 1.1em;
-
+    max-height: 12em;
 }
+
+#logo nav {
+    flex: 1 1 0;
+    display: flex;
+    justify-content: flex-end;
+    max-width: 40%;
+    order: 3;
+}
+
+#logo nav ul {
+    display: flex;
+    gap: 0.0625em;
+    padding: 0;
+    margin: 0;
+}
+
+#logo nav ul li a {
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+}
+
+#logo nav ul li a:hover {
+    color: #007BFF;
+    transition: 1s;
+    font-size: 1.6em;
+    text-decoration: underline;
+}
+
 
 #home h1 {
     display: flex;
@@ -54,7 +74,7 @@
 
 #home h2 {
     display: flex;
-    padding-top: 4em;
+    padding-top: 0.25em;
     font-size: 1.4em;
     width: 80%;
     text-align: center;
@@ -64,7 +84,7 @@
 }
 
 #servicos h2 {
-    margin-top: 2em;
+    margin-top: 5em;
     font-size: 2em;
     font-weight: bold;
     display: flex;
@@ -72,48 +92,42 @@
 }
 
 #servicos ul {
-
     font-size: 1.4em;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 0.8em;
-    padding-top: 1.5em;
-    padding-bottom: 2em;
+    gap: 0.05em;
+    padding-top: 0.09375em;
+    padding-bottom: 0.125em;
 }
-header {
-    background: linear-gradient(90deg, #4fd1c5, #81e6d9); /* Degradê azul esverdeado */
-    padding: 20px;
+
+.servico-titulo {
+    font-weight: bold;
+}
+
+#galeria h2 {
     display: flex;
-    align-items: center;
     justify-content: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-header img {
-    width: 250px; 
-    height: auto;
-    border-radius: 15px; 
-    transition: transform 0.3s ease;
-}
-
-header img:hover {
-    transform: scale(1.05);
+    margin-top: 3em;
+    margin-bottom: 1.3em;
+    font-weight: bold;
+    font-size: 2em;
 }
 
 .galeria {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 0.125em;
     justify-content: center;
 }
 
+
 .galeria img {
-    width: 300px;
+    width: 18.75em;
     height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 0.0625em;
+    box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
 
@@ -123,24 +137,24 @@ header img:hover {
 
 #depoimentos {
     background-color: #F3F4F6;
-    padding: 50px 20px;
+    padding: 3.125em 1.25em;
     text-align: center;
 }
 
 #depoimentos h2 {
     color: #90BE6D;
     font-size: 2em;
-    margin-bottom: 30px;
+    margin-bottom: 1.875em;
 }
 
 .depoimento {
     background-color: #FFFFFF;
-    border-left: 5px solid #A9D6E5;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 600px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    border-left: 0.3125em solid #A9D6E5;
+    border-radius: 0.625em;
+    padding: 1.25em;
+    margin: 1.25em auto;
+    max-width: 37.5em;
+    box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.05);
     position: relative;
 }
 
@@ -149,8 +163,8 @@ header img:hover {
     font-size: 3em;
     color: #A9D6E5;
     position: absolute;
-    top: -10px;
-    left: 15px;
+    top: -0.625em;
+    left: 0.9375em;
 }
 
 .depoimento::after {
@@ -158,17 +172,105 @@ header img:hover {
     font-size: 3em;
     color: #A9D6E5;
     position: absolute;
-    bottom: -10px;
-    right: 15px;
+    bottom: -0.625em;
+    right: 0.9375em;
 }
 
 .depoimento p {
     font-style: italic;
     color: #333;
-    margin-bottom: 10px;
+    margin-bottom: 0.625em;
 }
 
 .depoimento cite {
     font-weight: bold;
     color: #90BE6D;
+}
+
+#contato h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-top: 4em;
+    margin-bottom: 2em;
+}
+
+#contato form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9375em;
+    max-width: 31.25em;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 6em;
+    padding: 1.25em;
+    background-color: #ffffff;
+    border-radius: 0.5em;
+    box-shadow: 0 0.125em 0.5em rgba(0, 0, 0, 0.1);
+}
+
+#contato form label {
+    font-weight: bold;
+    color: #333;
+}
+
+#contato form input,
+#contato form textarea {
+    padding: 0.625em;
+    border: 0.0625em solid #ccc;
+    border-radius: 0.25em;
+    font-size: 0.875em;
+    width: 100%;
+}
+
+#contato form textarea {
+    min-height: 7.5em;
+    resize: vertical;
+}
+
+#contato form input:focus,
+#contato form textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0 0 0.3125em rgba(0, 123, 255, 0.3);
+}
+
+#contato form button {
+    padding: 0.75em;
+    background-color: #007BFF;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.25em;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#contato form button:hover {
+    background-color: #0056b3;
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.6s ease-in-out;
+}
+
+.fade-in.ativo {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#rodape {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #90BE6D;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    z-index: 999;
 }

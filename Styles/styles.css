@@ -309,6 +309,20 @@ nav ul li a:hover {
   box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Estilo dos links no rodapé */
+#rodape a {
+  text-decoration: none; /* Remove o sublinhado */
+  color: #dedede; /* Cor similar aos links do menu */
+  font-weight: 600;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+#rodape a:hover {
+  opacity: 0.8;
+  transform: translateY(-2px); /* Adiciona o efeito hover */
+}
+
+
 /* Animações suaves */
 .fade-in {
   opacity: 0;

@@ -16,7 +16,7 @@ A **Sorriso Perfeito é um clínica odontológica fictícia. Este projeto consis
 - **Galeria de Sorrisos**: Imagens de pacientes fictícios.
 - **Depoimentos**: Comentários de pacientes fictícios.
 - **Contato**: Formulário com nome, e-mail e mensagem.
-- **Footes**: Informações de ocntato e redes sociais.
+- **Footes**: Informações de contato e redes sociais.
 
 
 ---

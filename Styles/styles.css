@@ -1,282 +1,384 @@
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #0d72d7; /* Azul escuro */
+  line-height: 1.5;
+  background-color: #dad8d8; /* fundo cinza clarinho */
+}
+
+
 header {
-    background-color: rgb(17, 226, 226);
-    margin-bottom: 8em;
+  background-color: rgb(17, 226, 226);
+  margin-bottom: 8rem;
 }
 
 #logo {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0.125em;
-    gap: 0.09375em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.125rem;
+  gap: 0.09375rem;
 }
 
 #logo h1 {
-    font-size: 2.5em;
-    margin-left: 0.8em;
-    white-space: nowrap;
-    flex: 1 1 0;
-    max-width: 40%;
+  font-size: 2.5rem;
+  margin-left: 0.8rem;
+  white-space: nowrap;
+  flex: 1 1 0;
+  max-width: 40%;
 }
 
 #logo img {
-    max-height: 9.375em;
-    height: auto;
-    width: auto;
-    margin: 0 0.125em;
-    flex-shrink: 0;
-    order: 2;
+  max-height: 9.375rem;
+  height: auto;
+  width: auto;
+  margin: 0 0.125rem;
+  flex-shrink: 0;
+  order: 2;
+  transition: max-height 1s ease;
 }
 
-
 #logo img:hover {
-    transition: 1s;
-    max-height: 12em;
+  max-height: 12rem;
 }
 
 #logo nav {
-    flex: 1 1 0;
-    display: flex;
-    justify-content: flex-end;
-    max-width: 40%;
-    order: 3;
+  flex: 1 1 0;
+  display: flex;
+  justify-content: flex-end;
+  max-width: 40%;
+  order: 3;
 }
 
 #logo nav ul {
-    display: flex;
-    gap: 1em;
-    padding: 0;
-    margin: 0;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
 #logo nav ul li a {
-    text-decoration: none;
-    font-size: 1.5em;
-    font-weight: bold;
-    color: black;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: black;
+  transition: color 1s ease, font-size 1s ease, text-decoration 1s ease;
 }
 
 #logo nav ul li a:hover {
-    color: #007BFF;
-    transition: 1s;
-    font-size: 1.6em;
-    text-decoration: underline;
+  color: #007BFF;
+  font-size: 1.6rem;
+  text-decoration: underline;
 }
 
-
 #home h1 {
-    display: flex;
-    font-weight: bold;
-    font-size: 2em;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  font-weight: 700;
+  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
 }
 
 #home h2 {
-    display: flex;
-    padding-top: 0.25em;
-    font-size: 1.4em;
-    width: 80%;
-    text-align: center;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  padding-top: 0.25rem;
+  font-size: 1.4rem;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
 }
 
 #servicos h2 {
-    margin-top: 5em;
-    font-size: 2em;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 1em;
+  margin-top: 5rem;
+  font-size: 2rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
 }
 
 #servicos ul {
-    font-size: 1.4em;
-    max-width: 600px; /* largura máxima para a lista, ajuste conforme quiser */
-    margin: 0 auto; /* centraliza o bloco da lista */
-    padding: 0;
-    list-style: none; /* opcional, se quiser remover as bolinhas */
-    text-align: left; /* alinha o texto à esquerda */
+  font-size: 1.4rem;
+  max-width: 37.5rem;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  text-align: left;
 }
 
 #servicos ul li {
-    margin-bottom: 0.5em; /* espaçamento entre itens */
+  margin-bottom: 0.5rem;
 }
 
-
-
-
 .servico-titulo {
-    font-weight: bold;
+  font-weight: 700;
 }
 
 #galeria h2 {
-    display: flex;
-    justify-content: center;
-    margin-top: 3em;
-    margin-bottom: 1.3em;
-    font-weight: bold;
-    font-size: 2em;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 1.3rem;
+  font-weight: 700;
+  font-size: 2rem;
 }
 
 .galeria {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.125em;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.125rem;
+  justify-content: center;
 }
 
-
 .galeria img {
-    width: 18.75em;
-    height: auto;
-    border-radius: 0.0625em;
-    box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+  width: 18.75rem;
+  height: auto;
+  border-radius: 0.0625rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
 
 .galeria img:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 #depoimentos {
-    background-color: #F3F4F6;
-    padding: 3.125em 1.25em;
-    text-align: center;
+  background-color: #F3F4F6;
+  padding: 3.125rem 1.25rem;
+  text-align: center;
 }
 
 #depoimentos h2 {
-    color: #90BE6D;
-    font-size: 2em;
-    margin-bottom: 1.875em;
+  color: #90BE6D;
+  font-size: 2rem;
+  margin-bottom: 1.875rem;
 }
 
 .depoimento {
-    background-color: #FFFFFF;
-    border-left: 0.3125em solid #A9D6E5;
-    border-radius: 0.625em;
-    padding: 1.25em;
-    margin: 1.25em auto;
-    max-width: 37.5em;
-    box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.05);
-    position: relative;
+  background-color: #fff;
+  border-left: 0.3125rem solid #A9D6E5;
+  border-radius: 0.625rem;
+  padding: 1.25rem;
+  margin: 1.25rem auto;
+  max-width: 37.5rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.05);
+  position: relative;
 }
 
 .depoimento::before {
-    content: "“";
-    font-size: 3em;
-    color: #A9D6E5;
-    position: absolute;
-    top: -0.625em;
-    left: 0.9375em;
+  content: "“";
+  font-size: 3rem;
+  color: #A9D6E5;
+  position: absolute;
+  top: -0.625rem;
+  left: 0.9375rem;
 }
 
 .depoimento::after {
-    content: "”";
-    font-size: 3em;
-    color: #A9D6E5;
-    position: absolute;
-    bottom: -0.625em;
-    right: 0.9375em;
+  content: "”";
+  font-size: 3rem;
+  color: #A9D6E5;
+  position: absolute;
+  bottom: -0.625rem;
+  right: 0.9375rem;
 }
 
 .depoimento p {
-    font-style: italic;
-    color: #333;
-    margin-bottom: 0.625em;
+  font-style: italic;
+  color: #333;
+  margin-bottom: 0.625rem;
 }
 
 .depoimento cite {
-    font-weight: bold;
-    color: #90BE6D;
+  font-weight: 700;
+  color: #90BE6D;
 }
 
 #contato h2 {
-    display: flex;
-    justify-content: center;
-    font-size: 1.6em;
-    font-weight: bold;
-    margin-top: 4em;
-    margin-bottom: 2em;
+  display: flex;
+  justify-content: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
 }
 
 #contato form {
-    display: flex;
-    flex-direction: column;
-    gap: 0.9375em;
-    max-width: 31.25em;
-    margin-top: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 6em;
-    padding: 1.25em;
-    background-color: #ffffff;
-    border-radius: 0.5em;
-    box-shadow: 0 0.125em 0.5em rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 0.9375rem;
+  max-width: 31.25rem;
+  margin: auto;
+  margin-bottom: 6rem;
+  padding: 1.25rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.1);
 }
 
 #contato form label {
-    font-weight: bold;
-    color: #333;
+  font-weight: 700;
+  color: #333;
 }
 
 #contato form input,
 #contato form textarea {
-    padding: 0.625em;
-    border: 0.0625em solid #ccc;
-    border-radius: 0.25em;
-    font-size: 0.875em;
-    width: 100%;
+  padding: 0.625rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+  width: 100%;
+  font-family: inherit;
 }
 
 #contato form textarea {
-    min-height: 7.5em;
-    resize: vertical;
+  min-height: 7.5rem;
+  resize: vertical;
 }
 
 #contato form input:focus,
 #contato form textarea:focus {
-    border-color: #007BFF;
-    outline: none;
-    box-shadow: 0 0 0.3125em rgba(0, 123, 255, 0.3);
+  border-color: #007BFF;
+  outline: none;
+  box-shadow: 0 0 0.3125rem rgba(0, 123, 255, 0.3);
 }
 
 #contato form button {
-    padding: 0.75em;
-    background-color: #007BFF;
-    color: white;
-    font-weight: bold;
-    border: none;
-    border-radius: 0.25em;
-    cursor: pointer;
-    transition: background 0.3s ease;
+  padding: 0.75rem;
+  background-color: #007BFF;
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-family: inherit;
 }
 
 #contato form button:hover {
-    background-color: #0056b3;
+  background-color: #0056b3;
 }
 
 .fade-in {
-    opacity: 0;
-    transform: translateY(30px);
-    transition: all 0.6s ease-in-out;
+  opacity: 0;
+  transform: translateY(1.875rem);
+  transition: all 0.6s ease-in-out;
 }
 
 .fade-in.ativo {
-    opacity: 1;
-    transform: translateY(0);
+  opacity: 1;
+  transform: translateY(0);
 }
 
 #rodape {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: #90BE6D;
-    color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #90BE6D;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  z-index: 999;
+}
+
+@media (max-width: 400px) {
+  #logo {
+    flex-direction: column !important;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.5rem 0;
+  }
+
+  #logo h1 {
+    max-width: 100% !important;
     text-align: center;
-    padding: 1em 0;
-    z-index: 999;
+    font-size: 1.3rem !important;
+    margin-left: 0 !important;
+  }
+
+  #logo img {
+    max-height: 5rem !important;
+    margin: 0;
+  }
+
+  #logo nav {
+    max-width: 100% !important;
+    justify-content: center !important;
+  }
+
+  #logo nav ul {
+    flex-direction: column !important;
+    gap: 0.4rem;
+    align-items: center;
+  }
+
+  #logo nav ul li a {
+    font-size: 1rem !important;
+  }
+
+  #home h1,
+  #home h2 {
+    padding: 0 1rem !important;
+  }
+
+  #home h1 {
+    font-size: 1.2rem !important;
+  }
+
+  #home h2 {
+    width: 95% !important;
+    font-size: 1rem !important;
+  }
+
+  .galeria {
+    flex-direction: column !important;
+    gap: 0.75rem !important;
+    align-items: center !important;
+  }
+
+  .galeria img {
+    width: 90vw !important;
+    max-width: 16.25rem !important;
+  }
+
+  #depoimentos .depoimento {
+    max-width: 90vw !important;
+    margin: 1rem auto !important;
+    padding: 0.75rem !important;
+    font-size: 0.9rem !important;
+  }
+
+  #contato form {
+    max-width: 90vw !important;
+    padding: 0.75rem !important;
+  }
+
+  #rodape {
+    padding: 0.5rem 0 !important;
+    font-size: 0.85rem !important;
+  }
+}
+
+@media (max-width: 800px) {
+  #logo h1 {
+    max-width: 40% !important;
+  }
+
+  #logo nav {
+    max-width: 60% !important;
+  }
 }

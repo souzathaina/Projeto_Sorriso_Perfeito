@@ -36,12 +36,17 @@ A **Sorriso Perfeito é um clínica odontológica fictícia. Este projeto consis
 
 ## 🎨 Paleta de Cores
 
-| Cor         | Código HEX |
-|-------------|------------|
-| Azul Claro  | #A9D6E5    |
-| Verde Suave | #90BE6D    |
-| Cinza Claro | #F3F4F6    |
-| Branco      | #FFFFFF    |
+| Cor             | Código HEX   |
+|-----------------|--------------|
+| Preto           | #000000    |
+| Azul Escuro     | #0f3a51    |
+| Azul Médio      | #0096c7    |
+| Azul Claro Suave| #e3f2fd    |
+| Cinza Claro     | #cecfcfcb  |
+| Cinza Claro     | #dedede    |
+| Azul Brilhante  | #00b4d8    |
+| Azul Fundo      | #0077b6    |
+| Branco          | #ffffff    |
 
 ---
 

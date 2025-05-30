@@ -1,6 +1,5 @@
 # Sorriso Perfeito - Landing Page
 
-/*Banner do Projeto*/
 
 ## 📌 Sobre o Projeto
 
@@ -30,7 +29,6 @@ A **Sorriso Perfeito é um clínica odontológica fictícia. Este projeto consis
 - **JavaScript**
 - **Google Fonts** (Roboto ou Lato)
 - **Font Awasome** (Ícones)
-- **Canva** (para logotipo)
 
 ---
 
@@ -65,5 +63,4 @@ interatividade
 │ ├── img/ # Pasta para imagens (inclua o
 logotipo e a galeria)
 │ └── fonts/ # (Opcional) Pasta para fontes
-adicionais
 └── README.md # Instruções do projeto

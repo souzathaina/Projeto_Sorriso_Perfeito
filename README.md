@@ -1,4 +1,4 @@
-##Clínica Odontológica Sorriso Perfeito 🦷✨
+Clínica Odontológica Sorriso Perfeito 🦷✨
 
 Projeto de site institucional para a Clínica Odontológica Sorriso Perfeito, focado em apresentar serviços odontológicos de maneira moderna, acessível e humanizada, com design atrativo, interações suaves e formulário funcional.
 

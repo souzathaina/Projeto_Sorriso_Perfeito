@@ -10,9 +10,13 @@ Projeto de site institucional para a Clínica Odontológica Sorriso Perfeito, fo
 Acesse todas as seções através do menu de navegação com rolagem suave:
 
 ✅ Home
+
 ✅ Serviços
+
 ✅ Galeria de Sorrisos
+
 ✅ Depoimentos
+
 ✅ Contato
 
 🛠️ Tecnologias Utilizadas

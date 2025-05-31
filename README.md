@@ -1,66 +1,98 @@
-# Sorriso Perfeito - Landing Page
+Clínica Odontológica Sorriso Perfeito 🦷✨
+Projeto de site institucional para a Clínica Odontológica Sorriso Perfeito, focado em apresentar serviços odontológicos de maneira moderna, acessível e humanizada, com design atrativo, interações suaves e formulário funcional.
+
+🚀 Demonstração
 
 
-## 📌 Sobre o Projeto
+Acesse todas as seções através do menu de navegação com rolagem suave:
+✅ Home
+✅ Serviços
+✅ Galeria de Sorrisos
+✅ Depoimentos
+✅ Contato
 
-A **Sorriso Perfeito é um clínica odontológica fictícia. Este projeto consiste em desenvolver uma landing page moderna, responsiva e atrativa, que divulga os serviços, depoimentos de clientes e um formulário de contato.
+🛠️ Tecnologias Utilizadas
+HTML5: Estrutura semântica e acessível.
 
----
+CSS3: Estilização responsiva, gradientes, animações fade-in e layout flexível.
 
-## Visão Geral
+JavaScript Vanilla:
 
+Validação de formulário
 
-## 📋 Seções de Página
+Envio via FormSubmit
 
-- **Servições**: Lista de servições oforecidos
-- **Galeria de Sorrisos**: Imagens de pacientes fictícios.
-- **Depoimentos**: Comentários de pacientes fictícios.
-- **Contato**: Formulário com nome, e-mail e mensagem.
-- **Footes**: Informações de contato e redes sociais.
+Scroll suave para navegação
 
+Animação fade-in com IntersectionObserver
 
----
+Google Fonts: Roboto.
 
+🎨 Principais Recursos
+✅ Design clean e moderno com foco em acessibilidade.
+✅ Animações suaves para melhor experiência do usuário.
+✅ Formulário de contato com validação e integração com FormSubmit.
+✅ Responsivo: adaptável para dispositivos móveis.
+✅ Estrutura modular: separação de arquivos (HTML, CSS, JS).
 
-## 🛠 Tecnologias Utilizadas
+📂 Estrutura de Arquivos
+bash
+Copiar código
+/interatividade
+  /Assets
+    /img
+      - logo.png
+      - clariamento.png
+      - odontopediatra.png
+      - invisaling.png
+/Scripts
+  - script.js
+/Styles
+  - reset.css
+  - styles.css
+index.html
+README.md
+⚙️ Como Usar
+Clone ou baixe este repositório.
 
-- **HTML5**
-- **CSS3** (com Flexbox e Grid)
-- **JavaScript**
-- **Google Fonts** (Roboto ou Lato)
-- **Font Awasome** (Ícones)
+bash
+Copiar código
+git clone https://github.com/seuusuario/seurepositorio.git
+Abra o arquivo index.html no navegador.
 
----
+Para funcionamento completo do formulário, altere o atributo action no <form> para o e-mail desejado, utilizando FormSubmit.
 
-## 🎨 Paleta de Cores
+✉️ Formulário de Contato
+Validação de campos nome, email e mensagem.
 
-| Cor             | Código HEX   |
-|-----------------|--------------|
-| Preto           | #000000    |
-| Azul Escuro     | #0f3a51    |
-| Azul Médio      | #0096c7    |
-| Azul Claro Suave| #e3f2fd    |
-| Cinza Claro     | #cecfcfcb  |
-| Cinza Claro     | #dedede    |
-| Azul Brilhante  | #00b4d8    |
-| Azul Fundo      | #0077b6    |
-| Branco          | #ffffff    |
+Mensagens de alerta em caso de erro ou sucesso.
 
----
+Envio automático ao FormSubmit.
 
-## 📁 Estrutura de Pastas
+📱 Responsividade
+O site foi projetado para se adaptar a diferentes tamanhos de tela, com ajustes de layout, tipografia e imagens para oferecer uma experiência otimizada em desktop, tablet e mobile.
 
-```plaintext
-/projetoSorrisoPerfeito
-│
-├── index.html # Página principal
-├── styles/
-│ └── style.css # Arquivo CSS principal
-├── scripts/
-│ └── script.js # Arquivo JavaScript para
-interatividade
-├── assets/
-│ ├── img/ # Pasta para imagens (inclua o
-logotipo e a galeria)
-│ └── fonts/ # (Opcional) Pasta para fontes
-└── README.md # Instruções do projeto
+🖼️ Galeria
+Imagens ilustrativas de tratamentos realizados:
+
+Clareamento Dental
+
+Atendimento Odontopediátrico
+
+Alinhadores Invisíveis
+
+👥 Autores
+Desenvolvido por:
+
+Thaina Souza
+
+Gustavo KVS
+
+📄 Licença
+Este projeto está sob a licença MIT.
+Sinta-se à vontade para usar, modificar e compartilhar.
+
+🌟 Agradecimentos
+A todos os profissionais da odontologia que inspiram este projeto.
+
+Aos usuários que valorizam um sorriso saudável e feliz!

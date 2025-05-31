@@ -38,7 +38,7 @@ Google Fonts: Roboto.
 
 📂 Estrutura de Arquivos
 bash
-Copiar código
+
 /interatividade
   /Assets
     /img

@@ -38,9 +38,13 @@ Google Fonts: Roboto
 
 🎨 Principais Recursos
 ✅ Design clean e moderno com foco em acessibilidade.
+
 ✅ Animações suaves para melhor experiência do usuário.
+
 ✅ Formulário de contato com validação e integração com FormSubmit.
+
 ✅ Responsivo: adaptável para dispositivos móveis.
+
 ✅ Estrutura modular: separação de arquivos (HTML, CSS, JS).
 
 📂 Estrutura de Arquivos

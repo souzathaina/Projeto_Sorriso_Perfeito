@@ -1,4 +1,5 @@
-Clínica Odontológica Sorriso Perfeito 🦷✨
+##Clínica Odontológica Sorriso Perfeito 🦷✨
+
 Projeto de site institucional para a Clínica Odontológica Sorriso Perfeito, focado em apresentar serviços odontológicos de maneira moderna, acessível e humanizada, com design atrativo, interações suaves e formulário funcional.
 
 🚀 Demonstração
@@ -57,7 +58,7 @@ Clone ou baixe este repositório.
 
 bash
 Copiar código
-git clone https://github.com/seuusuario/seurepositorio.git
+git clone https://github.com/souzathaina/Projeto_Sorriso_Perfeito.git
 Abra o arquivo index.html no navegador.
 
 Para funcionamento completo do formulário, altere o atributo action no <form> para o e-mail desejado, utilizando FormSubmit.
